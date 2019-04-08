@@ -1,0 +1,28 @@
+Scriere prefixata: (+) 2 3 
+Comenzi cu : in fata cum ar fi :q (quit), :t (type), :? (help)
+"asa" ++ "cf" -> concatenarea celor 2 siruri
+Apel de functii: Nu f(2), ci f 2 sau (f 2)
+(+ 2) , (+ 2) 234
+succ 2<3 este False, deoarece se face prima data succesorul
+succ (succ 2) e corect, succ succ 2 nu e (trebuie specificat argumentul in paranteze, altfel va lua
+    doar primul lucru)
+min (min 2 3) 4 da 2 (sau max, da 4)
+
+Pt. a scrie functia noastra in Huskell:
+identitate x=x
+Pt. a o apela: 
+identitate 4
+Obtinem 4. 
+La fel pentru orice tip de date.
+
+sumThree x y z=x+y+z
+
+Pt. a incarca fisiere: touch functii.hs, jed functii.hs, ghci functii.hs, :l functii.hs
+:reload sau :r pt reincarcare
+Putem implementa mai multe functii in acelasi fisier
+NU PUNEM TAB-URI, DOAR SPATII!!!
+Se poate face si recursie.
+
+div este impartire intreaga, / nu este
+mod x y sau x `mod` y
+x/=y in loc de x!=y
